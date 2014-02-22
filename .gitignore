@@ -41,3 +41,5 @@ pickle-email-*.html
 coverage
 public/assets/*
 .#*
+# Ignore application configuration
+/config/application.yml
