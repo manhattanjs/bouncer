@@ -14,6 +14,7 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'figaro'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'foundation-rails'
 gem 'unicorn', require: false # Use unicorn as the app server
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
