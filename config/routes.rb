@@ -1,5 +1,6 @@
 Bouncer::Application.routes.draw do
   root 'pages#welcome'
+  get 'attendees' => 'event_attendees#index'
 
   devise_for :users,
     :path_names => { :sign_in => 'login', :sign_out => 'logout' },
