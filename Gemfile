@@ -55,8 +55,8 @@ group :development do
 end
 
 group :development, :test do
-  gem 'fuubar' #rspec formatter
-  gem 'rspec-rails', '~> 2.10'
+  gem 'fuubar', '2.0.0.beta1' #rspec formatter
+  gem 'rspec-rails', '~> 3.0.0.beta'
   gem 'factory_girl_rails'
   gem 'thin', require: false
 end
