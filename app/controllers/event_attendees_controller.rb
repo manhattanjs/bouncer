@@ -1,5 +1,5 @@
 class EventAttendeesController < ApplicationController
   def index
-  	@event = ManhattanjsEvent.first
+  	@events = ManhattanjsEvent.upcoming
   end
 end
