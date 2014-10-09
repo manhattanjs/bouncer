@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.1.2'
 
-gem 'rails', '4.0.3'
+gem 'rails', '4.1.6'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 gem 'jbuilder', '~> 1.2' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -12,11 +12,10 @@ gem 'coffee-rails', '~> 4.0.0' # Use CoffeeScript for .js.coffee assets and view
 gem 'devise'
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
-gem 'figaro'
-gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'foundation-rails'
-gem 'unicorn', require: false # Use unicorn as the app server
+gem 'activeadmin', github: 'activeadmin'
 
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -46,6 +45,7 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'memcachier'
+  gem 'unicorn'
 end
 
 group :development do
