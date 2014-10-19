@@ -38,6 +38,7 @@ group :development do
   gem "guard"
   gem "guard-rspec"
   gem 'terminal-notifier-guard'
+  gem 'annotate', github: 'ctran/annotate_models'
 end
 
 group :development, :test do
