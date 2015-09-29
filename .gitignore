@@ -44,3 +44,4 @@ public/assets/*
 # Ignore application configuration
 /config/application.yml
 /bodyguard
+npm-debug.log*
