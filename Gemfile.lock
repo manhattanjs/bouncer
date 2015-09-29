@@ -69,8 +69,6 @@ GEM
       execjs
       json
     bcrypt (3.1.10)
-    bootstrap-sass (3.2.0.2)
-      sass (~> 3.2)
     bourbon (3.2.4)
       sass (~> 3.2)
       thor
@@ -344,7 +342,6 @@ DEPENDENCIES
   activeadmin!
   annotate!
   autoprefixer-rails
-  bootstrap-sass (~> 3.2.0)
   capybara (~> 2.4.4)
   cucumber-rails (~> 1.4)
   database_cleaner
@@ -354,7 +351,6 @@ DEPENDENCIES
   fuubar (~> 2.0.0)
   guard
   guard-rspec
-  jquery-rails
   memcachier
   omniauth
   omniauth-google-oauth2
