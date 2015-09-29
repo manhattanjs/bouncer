@@ -113,6 +113,9 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    ember-cli-rails (0.3.5)
+      railties (>= 3.1, < 5)
+      sprockets (>= 2.0)
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.3.0)
@@ -346,6 +349,7 @@ DEPENDENCIES
   cucumber-rails (~> 1.4)
   database_cleaner
   devise
+  ember-cli-rails
   factory_girl_rails
   fuubar (~> 2.0.0)
   guard
